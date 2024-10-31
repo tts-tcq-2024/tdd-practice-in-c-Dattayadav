@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 #include "StringCalculator.h"
-
 TEST(StringCalculatorAddTests, ExpectZeroForEmptyInput) {
     int expectedresult = 0;
     std::string input = "";
